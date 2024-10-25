@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Tokens from '../pages/Tokens';
 
 const Hero = () => {
   return (
@@ -8,14 +10,15 @@ const Hero = () => {
         <h2 className="text-6xl font-bold mb-8 text-teal-400">CryptoNeko</h2>
         <p className="text-xl mb-12">Your buddy to help get information about the CryptoTokens.</p>
         <div className="flex justify-center">
-          <input 
-            type="text" 
-            placeholder="Search Contact Address" 
+          <span  
             className="px-4 py-3 rounded-l-lg w-96 bg-gray-800 text-white border-2 border-teal-400 focus:outline-none"
-          />
-          <button className="bg-gradient-to-r from-cryptoblue-500 to-cryptoteal-400 text-cryptowhite px-6 py-3 rounded-r-lg font-bold">
-            Search
-          </button>
+          >Check out the coins</span>
+          <Link 
+            to="/Tokens" 
+            className="bg-gradient-to-r from-cryptoblue-500 to-cryptoteal-400 text-cryptowhite px-6 py-3 rounded-r-lg font-bold"
+          >
+            Tokens
+          </Link>
         </div>
       </div>
     </div>
