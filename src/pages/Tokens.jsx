@@ -1,7 +1,6 @@
 import React,{ useState, useEffect } from 'react'
 import axios from 'axios';
 import CoinTable from '../components/CoinTable'
-import TokenList from '../components/TokenList'
 
 const Tokens = () => {
 

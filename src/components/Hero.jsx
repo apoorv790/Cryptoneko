@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Tokens from '../pages/Tokens';
 
 const Hero = () => {
   return (
