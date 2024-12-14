@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# CrytoNeko - Cryptocurrency Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CrytoNeko is a React.js and Tailwind CSS-based web application designed to provide live cryptocurrency data. Powered by the CoinGecko API, the app offers users real-time information on cryptocurrency prices, market capitalization, historical trends, and more. Its responsive and visually appealing interface ensures an engaging user experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1. **Live Cryptocurrency Data**
+- Displays live data for the top 50 cryptocurrencies, including current prices and market capitalization.
+- Regular updates ensure accurate and reliable information.
 
-### `npm start`
+### 2. **Interactive Carousel**
+- Showcases the top 10 cryptocurrencies.
+- Features real-time price updates and 24-hour price fluctuation data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. **Detailed Cryptocurrency Pages**
+- Each cryptocurrency page includes:
+  - A detailed description.
+  - Ranking information.
+  - Line charts showcasing price changes over multiple time frames (24 hours, 30 days, 3 months, 1 year).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4. **Responsive Design**
+- Built with Tailwind CSS to provide a clean and adaptive layout for all device sizes.
 
-### `npm test`
+### 5. **Data Visualization**
+- Utilizes Recharts to create interactive and visually appealing charts for historical price trends.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React.js**: Front-end framework for building a dynamic and interactive user interface.
+- **Tailwind CSS**: Utility-first CSS framework for designing a responsive and modern UI.
+- **CoinGecko API**: Source for live cryptocurrency data, including prices, market trends, and more.
+- **Recharts**: Library for creating interactive charts and graphs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the project locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/crytoneko.git
+   cd crytoneko
+   ```
 
-### `npm run eject`
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open your browser and navigate to `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- View live cryptocurrency data and trends.
+- Navigate through the carousel to explore top 10 cryptocurrencies.
+- Click on any cryptocurrency for detailed information and historical data visualization.
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```plaintext
+src/
+|-- components/         # Reusable React components
+|-- pages/              # Application pages
+|-- services/           # API calls and data handling
+|-- styles/             # Tailwind CSS configurations and custom styles
+|-- App.js              # Main application component
+|-- index.js            # Entry point of the application
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributions
 
-### Code Splitting
+Contributions are welcome! Feel free to fork the repository, create a new branch, and submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
+- [CoinGecko API](https://www.coingecko.com/en/api) for providing cryptocurrency data.
+- [Tailwind CSS](https://tailwindcss.com/) for the responsive UI design.
+- [Recharts](https://recharts.org/) for interactive chart visualizations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Demo
+Visit the live application: [CrytoNeko](https://crytoneko.netlify.app/)
