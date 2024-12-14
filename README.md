@@ -9,7 +9,6 @@ CrytoNeko is a React.js and Tailwind CSS-based web application designed to provi
 - Regular updates ensure accurate and reliable information.
 
 ### 2. **Interactive Carousel**
-- Showcases the top 10 cryptocurrencies.
 - Features real-time price updates and 24-hour price fluctuation data.
 
 ### 3. **Detailed Cryptocurrency Pages**
@@ -75,9 +74,6 @@ src/
 
 Contributions are welcome! Feel free to fork the repository, create a new branch, and submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
